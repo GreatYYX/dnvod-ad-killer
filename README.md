@@ -12,14 +12,16 @@
 
 需要有Python2.7的环境，`python mitm.py`，默认监听开启在`127.0.0.1:8899`。
 
-浏览器中安装proxy插件并指向本地proxy。我使用的是SwitchyOmega，创建规则`dnvod`，并在`Auto Switch`中，添加`host wildcard`并设置为`*.dnvod.tv`，规则指向前面创建的`dnvod`。
+浏览器中安装proxy插件并指向本地proxy即可。
 
 # 使用方法（小白版）
 
 - Window用户请先安装Python2.7（Mac和Linux用户跳过）。
-- 下载dnvod-ad-killer，点这个界面右上角`Clone and download`，然后`download zip`。
+- 下载dnvod-ad-killer，点这个界面右上角Clone and download，然后Download Zip。
 - 打开terminal / cmd (Windows)，然后`cd`进入当前目录，之后`python mitm.py`。
-- 在Chrome上安装SwitchOmega并按照上面的`使用方法`配置，之后切换到`Auto Switch`。
+- 在Chrome上安装插件SwitchOmega，创建规则（New Profile）取名叫dnvod，之后选择Protocol为`HTTP`，Server为`127.0.0.1`，Port为`8899`。并在Auto Switch中，添加host wildcard并设置为`*.dnvod.tv`，规则指向前面创建的dnvod。
+- 切换到Auto Switch。
+- Enjoy！之后每次需要看dnvod的时候，需要把mitm.py启动起来。
 
 还是不会就看有没有好心人有空做成一个one-click的程序喽～
 
