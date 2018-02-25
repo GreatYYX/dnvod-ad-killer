@@ -23,7 +23,7 @@ HTTP Proxy is based on [proxy2](https://github.com/inaz2/proxy2).
 - 打开terminal / cmd (Windows)，然后`cd`进入当前目录，之后`python mitm2.py`。
 - 在Chrome上安装插件SwitchOmega，创建规则（New Profile）取名叫dnvod，之后选择Protocol为`HTTP`，Server为`::1`，Port为`8899`。并在Auto Switch中，添加host wildcard并设置为`*.dnvod.tv`，规则指向前面创建的dnvod。
 - 切换到Auto Switch。
-- Enjoy！之后每次需要看dnvod的时候，需要把mitm.py启动起来。
+- Enjoy！之后每次需要看dnvod的时候，需要把mitm2.py启动起来。
 
 还是不会就看有没有好心人有空做成一个one-click的程序喽～
 
