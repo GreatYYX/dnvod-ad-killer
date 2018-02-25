@@ -14,10 +14,11 @@ HTTP Proxy is based on [proxy2](https://github.com/inaz2/proxy2).
 
 需要有Python2.7的环境，`python mitm2.py`，默认监听开启在`::1:8899`。
 
-浏览器中安装proxy插件并指向本地proxy即可。
+浏览器中安装proxy插件并指向本地proxy即可。使用前务必清除浏览器缓存。
 
 # 使用方法（小白版）
 
+- 请先清除浏览器缓存。
 - Window用户请先安装Python2.7（Mac和Linux用户跳过）。
 - 下载dnvod-ad-killer，点这个界面右上角Clone and download，然后Download Zip。
 - 打开terminal / cmd (Windows)，然后`cd`进入当前目录，之后`python mitm2.py`。
