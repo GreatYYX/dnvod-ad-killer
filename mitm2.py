@@ -375,7 +375,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                     res_body = base64.b64decode(one_px_gif_data)
 
             # count down
-            if url_path and url_path == '/js/2016/playerselection-1.2.7.90.js':
+            if url_path and url_path.startswith('/js/2016/playerselection-'):
                 with open('dn_replace.js', 'r') as f:
                     res_body = f.read()
 
