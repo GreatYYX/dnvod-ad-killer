@@ -6,7 +6,7 @@
 
 # 实现思路
 
-请移步我的blog：待续
+请移步我的blog：[https://github.com/GreatYYX/dnvod-ad-killer/tree/v2](https://github.com/GreatYYX/dnvod-ad-killer/tree/v2)
 
 # 使用方法
 
@@ -18,7 +18,7 @@
 
 - 2019以前的版本
     - 思路：[http://blog.yyx.me/posts/dnvod-ad-killer.html](http://blog.yyx.me/posts/dnvod-ad-killer.html)
-    - 代码：[https://github.com/GreatYYX/dnvod-ad-killer/tree/before2019](https://github.com/GreatYYX/dnvod-ad-killer/tree/before2019)
+    - 代码：[https://github.com/GreatYYX/dnvod-ad-killer/tree/v1](https://github.com/GreatYYX/dnvod-ad-killer/tree/v1)
 
 # 维护
 
