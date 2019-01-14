@@ -6,7 +6,7 @@
 
 # 实现思路
 
-请移步我的blog：[https://github.com/GreatYYX/dnvod-ad-killer/tree/v2](https://github.com/GreatYYX/dnvod-ad-killer/tree/v2)
+请移步我的blog：[http://blog.yyx.me/posts/dnvod-ad-killer-v2.html](http://blog.yyx.me/posts/dnvod-ad-killer-v2.html)
 
 # 使用方法
 
