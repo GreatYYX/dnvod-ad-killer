@@ -11,7 +11,7 @@
 # 使用方法
 
 1. 本脚本基于[mitmproxy](https://mitmproxy.org/)实现，请根据自身系统安装：[官方安装文档](https://docs.mitmproxy.org/stable/overview-installation/)。并需要对系统和浏览器安装SSL/TLS证书来实现HTTPS的攻击：[官方证书安装文档](https://docs.mitmproxy.org/stable/concepts-certificates/)。
-2. 在浏览器中安装proxy插件（如SwitchyOmega），并对域名`*.dnvod.tv`的所有http(s)流量指向本地proxy（`localhost:8899`）。具体设置方法请参考插件的文档。
+2. 在浏览器中安装proxy插件（如SwitchyOmega），并对域名`*.dnvod.tv`的所有http(s)流量指向本地proxy（`localhost:8899`）。具体设置方法请参考插件的文档。`proxy.pac`可用于自动配置代理，最新的pac文件可以通过`https://raw.githubusercontent.com/GreatYYX/dnvod-ad-killer/master/proxy.pac`获取。
 3. `mitmdump -p 8899 -s call_killer.py`。 使用前务必清除浏览器缓存。
 
 # 历史版本
