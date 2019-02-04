@@ -1,5 +1,7 @@
 # Dnvod Ad Killer
 
+[![GitHub release](https://img.shields.io/github/release/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases)
+
 [鉴于多瑙基本就是海外的国人在使用，这儿就不写英文了]
 
 采用中间人攻击(MITM)的方法，移除多瑙(dnvod.tv)的视频广告及等待时间。
