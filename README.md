@@ -1,6 +1,6 @@
 # Dnvod Ad Killer
 
-[![GitHub release](https://img.shields.io/github/release/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases)
+Latest release: [![GitHub tag](https://img.shields.io/github/tag/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases)
 
 [鉴于多瑙基本就是海外的国人在使用，这儿就不写英文了]
 
