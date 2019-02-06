@@ -1,12 +1,10 @@
 # Dnvod Ad Killer
 
-Latest release: [![GitHub tag](https://img.shields.io/github/tag/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases)
-
-Firefox add-ons: [![Firefox add-ons](https://img.shields.io/badge/firefox-addon-orange.svg?logo=mozilla%20firefox)](https://addons.mozilla.org/en-US/firefox/addon/dnvod-ad-killer/)
+[![GitHub tag](https://img.shields.io/github/tag/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases) [![Firefox add-ons](https://img.shields.io/badge/firefox-add ons-orange.svg?logo=mozilla%20firefox)](https://addons.mozilla.org/en-US/firefox/addon/dnvod-ad-killer/)
 
 [鉴于多瑙基本就是海外的国人在使用，这儿就不写英文了]
 
-采用中间人攻击(MITM)的方法，移除多瑙(dnvod.tv)的视频广告及等待时间。
+移除多瑙(dnvod.tv)的视频广告及等待时间。
 
 # 实现思路
 
