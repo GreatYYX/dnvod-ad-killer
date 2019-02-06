@@ -1,6 +1,6 @@
 # Dnvod Ad Killer
 
-[![GitHub tag](https://img.shields.io/github/tag/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases) [![Firefox add-ons](https://img.shields.io/badge/firefox-add ons-orange.svg?logo=mozilla%20firefox)](https://addons.mozilla.org/en-US/firefox/addon/dnvod-ad-killer/)
+[![GitHub tag](https://img.shields.io/github/tag/GreatYYX/dnvod-ad-killer.svg)](https://github.com/GreatYYX/dnvod-ad-killer/releases) [![Firefox add-ons](https://img.shields.io/badge/firefox-add%20ons-orange.svg?logo=mozilla%20firefox)](https://addons.mozilla.org/en-US/firefox/addon/dnvod-ad-killer/)
 
 [鉴于多瑙基本就是海外的国人在使用，这儿就不写英文了]
 
@@ -18,7 +18,7 @@
 
 直接在[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/dnvod-ad-killer/)平台安装即可。
 
-> Chrome由于对Extension API的限制，无法使用单插件实现。请使用MITM脚本。
+> Chrome由于对Extension API的限制，该思路无法使用插件实现。请使用MITM脚本。
 
 ## MITM脚本
 
