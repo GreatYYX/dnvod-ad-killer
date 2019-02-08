@@ -1,4 +1,5 @@
 __pycache__/*
 firefox-extension.zip
 .DS_Store
-
+firefox-extension/credentials
+firefox-extension/src/web-ext-artifacts/*

@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{d099624c-b79c-4eba-8839-2933e9c16e58}": {
+      "updates": [
+        {
+          "update_link": "https://raw.githubusercontent.com/GreatYYX/dnvod-ad-killer/master/firefox-extension/dist/dnvod_ad_killer-2.1-an+fx.xpi",
+          "version": "2.1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Dnvod Ad Killer, Dnvod Ad Remover, 多瑙去广告, 多瑙净化",
+  "manifest_version": 2,
+  "name": "dnvod-ad-killer",
+  "version": "2.1",
+  "homepage_url": "https://github.com/GreatYYX/dnvod-ad-killer",
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
+  },
+  "author": "GreatYYX",
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "*://*.dnvod.tv/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.dnvod.tv/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Dnvod Ad Killer",
+    "default_popup": "menu.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "{d099624c-b79c-4eba-8839-2933e9c16e58}",
+      "strict_min_version": "57.0a1",
+      "update_url": "https://raw.githubusercontent.com/GreatYYX/dnvod-ad-killer/master/firefox-extension/update.json"
+    }
+  }
+}
