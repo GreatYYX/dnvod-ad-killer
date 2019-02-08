@@ -16,7 +16,9 @@
 
 ## Firefox插件
 
-由于dnvod的js经过混淆和压缩，修改后的js依然无法通过Firefox Add-ons的审核要求，因此self host在[这里](https://github.com/GreatYYX/dnvod-ad-killer/tree/master/firefox-extension/dist)。插件已经通过官方签名且支持自动升级。
+由于dnvod的js经过混淆和压缩，修改后的js依然无法通过Firefox Add-ons的审核要求，因此self host在[这里](https://github.com/GreatYYX/dnvod-ad-killer/tree/master/firefox-extension/dist)。选择相应版本，点击download，下载后拖拽到浏览器即可。
+
+插件已经通过官方签名且支持自动升级。
 
 > Chrome由于对Extension API的限制，该思路无法使用插件实现。请使用MITM脚本。
 
