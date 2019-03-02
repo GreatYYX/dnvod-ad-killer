@@ -3,9 +3,10 @@ function listener(details) {
   let encoder = new TextEncoder();
   let url = new URL(details.url);
   let one_px_gif_data = "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+  let re = new RegExp("8\\..+\\.js$", "ig");
 
   filter.ondata = event => {
-    if (url.pathname.endsWith("8.f1e991deb25eab01d184.js")) {
+    if (url.pathname.search(re) != -1) {
         console.log("dnvod-ad-killer: detected target js (chunk)");
     } else if (url.hostname.endsWith("ppv.dnvod.tv") && url.pathname.startsWith("/upload/video")) {
         console.log("dnvod-ad-killer: detected target image (chunk)");
@@ -15,8 +16,8 @@ function listener(details) {
   };
 
   filter.onstop = event => {
-    if (url.pathname.endsWith("8.f1e991deb25eab01d184.js")) {
-      var de_url = browser.runtime.getURL("8.f1e991deb25eab01d184.de.js");
+    if (url.pathname.search(re) != -1) {
+      var de_url = browser.runtime.getURL("8.f56b7792ce563bfe9690.de.js");
       var xhr = new XMLHttpRequest();
       xhr.open('GET', de_url, false);
       xhr.send(null);
