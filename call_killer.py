@@ -4,7 +4,7 @@ import re
 
 import mitmproxy.http
 
-re_inject_js_script = re.compile(r'8\..*\.js$', re.IGNORECASE)
+re_inject_js_script = re.compile(r'8\..+\.js$', re.IGNORECASE)
 
 class DNAdKiller:
 
