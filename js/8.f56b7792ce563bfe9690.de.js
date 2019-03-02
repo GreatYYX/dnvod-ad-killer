@@ -1,6 +1,21 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
     [8], {
         EEnh: function(t, e) {
+            // -----------------
+            // remove app-gg-block
+            var css = 'app-gg-block.d-block { display:none !important; } \n app-gg-block a {display: none !important;}',
+                head = document.head || document.getElementsByTagName('head')[0],
+                style = document.createElement('style');
+
+            style.type = 'text/css';
+            if (style.styleSheet){
+              style.styleSheet.cssText = css;
+            } else {
+              style.appendChild(document.createTextNode(css));
+            }
+            head.appendChild(style);
+            // -----------------
+
             var i;
             (i = window.AmCharts).AmSlicedChart = i.Class({
                     inherits: i.AmChart,
@@ -6673,7 +6688,7 @@
                 }(),
                 Lt = n["\u0275crt"]({
                     encapsulation: 2,
-                    styles: ["\n        vg-playback-button {\n            -webkit-touch-callout: none;\n            -webkit-user-select: none;\n            -moz-user-select: none;\n            -ms-user-select: none;\n            user-select: none;\n            display: flex;\n            justify-content: center;\n            height: 50px;\n            width: 50px;\n            cursor: pointer;\n            color: white;\n            line-height: 50px;\n            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n        }\n\n        vg-playback-button .button {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 50px;\n        }\n    "],
+                    styles: ["\n      vg-playback-button {\n            -webkit-touch-callout: none;\n            -webkit-user-select: none;\n            -moz-user-select: none;\n            -ms-user-select: none;\n            user-select: none;\n            display: flex;\n            justify-content: center;\n            height: 50px;\n            width: 50px;\n            cursor: pointer;\n            color: white;\n            line-height: 50px;\n            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n        }\n\n        vg-playback-button .button {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 50px;\n        }\n    "],
                     data: {}
                 });
 
