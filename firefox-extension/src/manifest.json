@@ -2,7 +2,7 @@
   "description": "Dnvod Ad Killer, Dnvod Ad Remover, 多瑙去广告, 多瑙净化",
   "manifest_version": 2,
   "name": "dnvod-ad-killer",
-  "version": "2.1",
+  "version": "2.2",
   "homepage_url": "https://github.com/GreatYYX/dnvod-ad-killer",
   "icons": {
     "48": "icon.png",
